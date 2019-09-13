@@ -34,9 +34,9 @@ class App extends Component {
             (playerBlack === "Paper" && playerGrey === "Spock") ||
             (playerBlack === "Rock" && playerGrey === "Lizards") ||
             (playerBlack === "Spock" && playerGrey === "Rock")) {
-            return "Player Black Win!"
+            return "Player 1 Win!"
         }
-        return "Player Grey Win!"
+        return "Player 2 Win!"
     }
 
     startGame = () => {
@@ -59,6 +59,8 @@ class App extends Component {
     render() {
         return (
             <div className="App">
+                <h1>Player 1</h1>
+                <h2>Player 2</h2>
                 <PlayerCard
                     color="black"
                     symbol={this.state.playerBlack}/>

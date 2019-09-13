@@ -45,6 +45,18 @@ button {
     padding: 1rem;
 }
 
+h1 {
+    font-size: large;
+    margin: 10,10,0,0;
+    float: left;
+}
+
+h2 {
+    font-size: large;
+    margin: 10,10,0,0;
+    float: right;
+}
+
 button:hover {
   background-color: silver;
   transition: all 200ms ease-out;
